@@ -1,0 +1,98 @@
+{
+  "manifest": {
+    "publishingInformation": {
+      "locales": {
+        "es-ES": {
+          "summary": "Emisora consciente vaisnava",
+          "examplePhrases": [
+            "Alexa, inicia Ecos de Vrindavana",
+            "Alexa, abre Ecos de Vrindavana",
+            ""
+          ],
+          "keywords": [
+            "música",
+            "vaisnava",
+            "kirtan",
+            "bhajan",
+            "devocional",
+            "Kishna",
+            "Prabhupada"
+          ],
+          "name": "Ecos de Vrindavana",
+          "description": "Emisora online vaisnava, música, clases, conferencias...",
+          "smallIconUri": "file://assets/images/es-ES_smallIconUri.png",
+          "largeIconUri": "file://assets/images/es-ES_largeIconUri.png"
+        },
+        "es-US": {
+          "summary": "Emisora consciente vaisnava",
+          "examplePhrases": [
+            "Alexa, inicia Ecos de Vrindavana",
+            "Alexa, abre Ecos de Vrindavana"
+          ],
+          "keywords": [
+            "música",
+            "vaisnava",
+            "kirtan",
+            "bhajan",
+            "devocional",
+            "Kishna",
+            "Prabhupada"
+          ],
+          "name": "Ecos de Vrindavana",
+          "description": "Emisora online vaisnava, música, clases, conferencias...",
+          "smallIconUri": "file://assets/images/es-US_smallIconUri.png",
+          "largeIconUri": "file://assets/images/es-US_largeIconUri.png"
+        },
+        "es-MX": {
+          "summary": "Emisora consciente vaisnava",
+          "examplePhrases": [
+            "Alexa, inicia Ecos de Vrindavana",
+            "Alexa, abre Ecos de Vrindavana"
+          ],
+          "keywords": [
+            "música",
+            "vaisnava",
+            "kirtan",
+            "bhajan",
+            "devocional",
+            "Kishna",
+            "Prabhupada"
+          ],
+          "name": "Ecos de Vrindavana",
+          "description": "Emisora online vaisnava, música, clases, conferencias...",
+          "smallIconUri": "file://assets/images/es-MX_smallIconUri.png",
+          "largeIconUri": "file://assets/images/es-MX_largeIconUri.png"
+        }
+      },
+      "isAvailableWorldwide": true,
+      "testingInstructions": "(Spanish) Alexa, inicia ecos de vrindavana.\n(English) Alexa, open ecos de vrindavana.",
+      "category": "STREAMING_SERVICE",
+      "distributionCountries": []
+    },
+    "apis": {
+      "custom": {
+        "endpoint": {
+          "uri": "arn:aws:lambda:us-east-1:809951876323:function:52e92c47-b718-47a0-8639-f056c499b6d4:Release_0"
+        },
+        "interfaces": [
+          {
+            "type": "AUDIO_PLAYER"
+          }
+        ]
+      }
+    },
+    "manifestVersion": "1.0",
+    "privacyAndCompliance": {
+      "allowsPurchases": false,
+      "locales": {
+        "es-ES": {},
+        "es-US": {},
+        "es-MX": {}
+      },
+      "containsAds": false,
+      "isExportCompliant": true,
+      "isChildDirected": false,
+      "usesPersonalInfo": false
+    }
+  }
+}
