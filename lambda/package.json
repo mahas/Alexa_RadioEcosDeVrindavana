@@ -1,7 +1,7 @@
 {
-  "name": "hello-world",
+  "name": "Ecos de Vrindavana",
   "version": "1.1.0",
-  "description": "alexa utility for quickly building skills",
+  "description": "app para escuchar la emisora Ecos de Vrindavana en los dispositivos de Alexa",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
